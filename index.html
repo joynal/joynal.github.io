@@ -1,276 +1,287 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+      Joynal's Thoughts: Reflections on Software Engineering and Career Growth
+    </title>
+    <meta name="robots" content="index" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Joynal Abedin" />
+    <meta name="copyright" content="joynal.uu@gmail.com" />
+    <meta
+      name="description"
+      content="Get insights from a passionate software engineer in the Netherlands. With 10 years of experience, Joynal shares his innovative solutions for complex problems. Follow his blog for helpful tips and travel inspiration."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,900"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Joynal: Home</title>
-  <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Joynal Abedin" />
-  <meta name="copyright" content="joynal.uu@gmail.com" />
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-  <link rel="manifest" href="images/site.webmanifest">
-  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
-  <link href='https://fonts.googleapis.com/css?family=Raleway:300,900' rel='stylesheet' type='text/css'>
+    <style>
+      /* Joynal abedin Portfolio */
 
-  <style>
-    /* Joynal abedin Portfolio */
-
-    body {
-      font: 100%/1.6 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      background-color: #fff;
-      color: #444;
-      padding: 0 1em;
-      margin: 0 auto;
-      text-align: left;
-      font-weight: 300;
-    }
-
-
-    /* Styling links*/
-    a {
-      color: #ee2418;
-      text-decoration: none;
-      transition: all .5s ease;
-    }
-
-    a:visited {
-      color: #ee2418;
-    }
-
-    a:hover {
-      color: #000;
-    }
-
-    a:focus {
-      outline: thin dotted;
-    }
-
-    a:hover,
-    a:active {
-      outline: 0;
-    }
-
-    /* Making images responsive */
-    img {
-      width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      margin-top: 1em;
-    }
-
-
-    h1,
-    h2,
-    h3 {
-      font-weight: 900;
-      padding: 0;
-      margin: 0;
-    }
-
-    h1 {
-      font-size: 1.875em;
-      /*30px*/
-      text-transform: uppercase;
-      margin-top: .5em;
-    }
-
-    h1 a,
-    h1 a:visited,
-    a h3,
-    a:visited h3 {
-      color: #444;
-    }
-
-    h1 a:hover,
-    a:hover h3 {
-      color: #ee2418;
-    }
-
-    h2 {
-      font-size: 2.5em;
-      /*40px*/
-      line-height: 1.1;
-    }
-
-    h3 {
-      font-size: 1.875em;
-      /* 30px*/
-      line-height: 1;
-      margin: 1.5em 0 0 0;
-
-    }
-
-
-    ul,
-    ol,
-    dd {
-      margin: 0;
-    }
-
-    ul li li,
-    ol li li {
-      margin: 0 0 0 1em;
-    }
-
-
-    .banner {
-      margin-bottom: 1em;
-      padding-bottom: 1em;
-      border-bottom: 1px solid #444;
-    }
-
-
-    .more-info ul {
-      list-style: none;
-      list-style-image: none;
-      margin: 0;
-      padding: 0;
-    }
-
-
-    .main-content {
-      padding-bottom: 1em;
-    }
-
-    .more-info,
-    .footer-info {
-      border-top: 1px solid #000;
-      margin: .5em 0;
-      padding: .5em 0;
-      font-size: 0.875em;
-    }
-
-    /*14px*/
-
-
-
-    /* ------------------------------------------------------------------------------------------------------------------------------------------- */
-
-    @media only screen and (min-width: 42em) {
       body {
-        max-width: 58.75em;
+        font: 100%/1.6 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #fff;
+        color: #444;
+        padding: 0 1em;
+        margin: 0 auto;
+        text-align: left;
+        font-weight: 300;
       }
 
+      /* Styling links*/
+      a {
+        color: #ee2418;
+        text-decoration: none;
+        transition: all 0.5s ease;
+      }
 
-      .banner {
+      a:visited {
+        color: #ee2418;
+      }
+
+      a:hover {
+        color: #000;
+      }
+
+      a:focus {
+        outline: thin dotted;
+      }
+
+      a:hover,
+      a:active {
+        outline: 0;
+      }
+
+      /* Making images responsive */
+      img {
         width: 100%;
-        margin-bottom: 2em;
-        padding-bottom: 1em;
-        border-bottom: 3px solid #444;
+        height: auto;
+        border: 1px solid #ccc;
+        margin-top: 1em;
       }
 
       h1 {
-        font-size: 2.438em;
-        /*39px*/
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
       }
 
-
-      h2 {
-        font-size: 6.25em;
-        /*100px*/
-        line-height: 1.15;
-        margin-bottom: .2em;
+      h1 {
+        font-size: 1.875em;
+        /*30px*/
+        text-transform: uppercase;
+        margin-top: 0.5em;
       }
 
+      h1 a,
+      h1 a:visited,
+      a h3,
+      a:visited h3 {
+        color: #444;
+      }
 
+      h1 a:hover,
+      a:hover h3 {
+        color: #ee2418;
+      }
+
+      ul,
+      ol,
+      dd {
+        margin: 0;
+      }
+
+      ul li li,
+      ol li li {
+        margin: 0 0 0 1em;
+      }
+
+      .banner {
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid #444;
+      }
+
+      .more-info ul {
+        list-style: none;
+        list-style-image: none;
+        margin: 0;
+        padding: 0;
+      }
 
       .main-content {
-        width: 100%;
-        /*780px/940px*/
-        float: left;
-        margin: 0;
+        padding-bottom: 1em;
+        font-size: 1.5em;
       }
 
-
-      .wrap {
-        width: 100%;
-        border-top: 3px solid #444;
-        float: left;
-        margin-top: 2em;
-      }
-
-      .more-info {
-        float: right;
-        border: none;
-      }
-
-      .more-info li {
-        display: inline;
-        padding: 0 0 0 2em;
-      }
-
+      .more-info,
       .footer-info {
-        float: left;
-        border: none;
+        border-top: 1px solid #000;
+        margin: 0.5em 0;
+        padding: 0.5em 0;
+        font-size: 0.875em;
       }
 
-    }
+      /*14px*/
 
+      /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    /* ------------------------------------------------------------------------------------------------------------------------------------------- */
-    @media print {
-      body {
-        width: 100%;
-        margin: 0;
-        padding: 1em;
-        font-size: 12pt;
-        line-height: 1.5;
+      @media only screen and (min-width: 42em) {
+        body {
+          max-width: 58.75em;
+        }
+
+        .banner {
+          width: 100%;
+          margin-bottom: 2em;
+          padding-bottom: 1em;
+          border-bottom: 3px solid #444;
+        }
+
+        h1 {
+          font-size: 2.438em;
+          /*39px*/
+        }
+
+        h2 {
+          font-size: 6.25em;
+          /*100px*/
+          line-height: 1.15;
+          margin-bottom: 0.2em;
+        }
+
+        .main-content {
+          width: 100%;
+          /*780px/940px*/
+          float: left;
+          margin: 0;
+        }
+
+        .wrap {
+          width: 100%;
+          border-top: 3px solid #444;
+          float: left;
+          margin-top: 2em;
+        }
+
+        .more-info {
+          float: right;
+          border: none;
+        }
+
+        .more-info li {
+          display: inline;
+          padding: 0 0 0 2em;
+        }
+
+        .footer-info {
+          float: left;
+          border: none;
+        }
       }
 
-      /*h1, h2, h3 { font-size: 14pt;}*/
-      /* links */
-      a:link,
-      a:visited {
-        color: #333;
-        text-decoration: none;
+      @media only screen and (max-width: 42em) {
+        .more-info ul {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          font-size: 1.3em;
+        }
       }
 
-      /* hide */
-      .main-nav,
-      .more-info {
-        display: none;
-      }
+      /* ------------------------------------------------------------------------------------------------------------------------------------------- */
+      @media print {
+        body {
+          width: 100%;
+          margin: 0;
+          padding: 1em;
+          font-size: 12pt;
+          line-height: 1.5;
+        }
 
-      /* print URLs after articles 
+        /*h1, h2, h3 { font-size: 14pt;}*/
+        /* links */
+        a:link,
+        a:visited {
+          color: #333;
+          text-decoration: none;
+        }
+
+        /* hide */
+        .main-nav,
+        .more-info {
+          display: none;
+        }
+
+        /* print URLs after articles 
 article p a:after { content: " (" attr(href) ")"; } */
-    }
-  </style>
+      }
+    </style>
+  </head>
 
+  <body>
+    <header role="banner" class="banner">
+      <h1><a href="index.html">Joynal Abedin</a></h1>
+    </header>
 
-</head>
+    <main role="main" class="main-content">
+      <p>
+        Hello, my name is <a href="https://writing.joynal.dev">Joynal</a>, and
+        I'm a software engineer living and working in the Netherlands. With 10
+        years of experience under my belt, I have passion for solving complex
+        problems and creating innovative solutions.
+      </p>
 
-<body>
+      <p>
+        When I'm not working, I like to unwind by spending time with my family,
+        reading, and exploring new destinations. I find that travel helps
+        broaden my perspective and provides inspiration for my work.
+      </p>
 
-  <header role="banner" class="banner">
-    <h1><a href="index.html">Joynal Abedin</a></h1>
-  </header>
+      <p>
+        Thanks for taking the time to read a little about me. I hope you find my
+        blog informative and helpful. If you have any questions or feedback,
+        don't hesitate to reach out!
+      </p>
+    </main>
 
+    <div class="wrap">
+      <aside role="complementary" class="more-info">
+        <ul>
+          <li><a href="https://writing.joynal.dev/">My Blog</a></li>
+          <li><a href="https://www.linkedin.com/in/joynaluu">LinkedIn</a></li>
+          <li><a href="https://github.com/joynal">Github</a></li>
+          <li><a href="https://twitter.com/joynaluu">Twitter</a></li>
+        </ul>
+      </aside>
 
-  <main role="main" class="main-content">
-
-    <h2>Hi, I'm <a href="https://www.linkedin.com/in/joynaluu">Joynal</a>, a software engineer with a passion for web
-      development.</h2>
-  </main>
-
-
-  <div class="wrap">
-    <aside role="complementary" class="more-info">
-      <ul>
-        <li><a href="https://github.com/joynal">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/joynaluu">LinkedIn</a></li>
-        <li><a href="https://twitter.com/joynaluu">Twitter</a></li>
-      </ul>
-    </aside>
-
-
-    <footer role="contentinfo" class="footer-info">
-      Copyright &copy; <a href="https://joynal.dev">Joynal Abedin</a>
-    </footer>
-  </div>
-
-</body>
-
+      <footer role="contentinfo" class="footer-info">
+        Copyright &copy; <a href="https://joynal.dev">Joynal Abedin</a>
+      </footer>
+    </div>
+  </body>
 </html>
